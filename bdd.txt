@@ -1,0 +1,9 @@
+CREATE DATABASE TiendaOnline;
+USE TiendaOnline;
+
+
+CREATE TABLE Clientes (
+    ClienteID INT PRIMARY KEY,
+    Nombre VARCHAR(50),
+    Ciudad VARCHAR(50)
+);
