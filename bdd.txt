@@ -1,9 +1,9 @@
-CREATE DATABASE TiendaOnline;
-USE TiendaOnline;
+CREATE DATABASE Artesainals;
+USE Artesainals;
 
 
-CREATE TABLE Clientes (
-    ClienteID INT PRIMARY KEY,
-    Nombre VARCHAR(50),
+CREATE TABLE Usuario (
+    ID_Usuario INT PRIMARY KEY,
+    Nombre_prim VARCHAR(50),
     Ciudad VARCHAR(50)
 );
